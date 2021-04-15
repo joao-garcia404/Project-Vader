@@ -1,8 +1,10 @@
+import { Link } from 'react-scroll';
+
 import { Container } from "./styles";
 
 export function HomePersonal() {
   return (
-    <Container>
+    <Container id="home">
       <main>
         <div>
           <h1>João Garcia</h1>
@@ -13,7 +15,9 @@ export function HomePersonal() {
             site pessoal.
           </p>
 
+          <Link to="about" smooth={true} duration={1000}>
           <button type="button">Mais sobre mim</button>
+          </Link>
         </div>
         <img src="/guy-coding.svg" alt="João Vitor"/>
       </main>
