@@ -23,4 +23,11 @@ Website desenvolvido com o intuito de documentar minha carreira na programação
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 
+## Próximas features
+
+O website ainda está em desenvolvimento e não está 100% finalizado
+
+- Melhoria na descrições dos projetos com modais
+- Contato
+
 Made with 💜 by João Garcia 👋 [Veja meu Linkedin](https://www.linkedin.com/in/joão-vitor-garcia-89bba81b1/)
