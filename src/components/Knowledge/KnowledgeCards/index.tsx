@@ -49,7 +49,7 @@ export function KnowledgeCards() {
 
           <span>ReactJS</span>
 
-          <p>4 meses <br /> experiência</p>
+          <p>4 meses de <br /> experiência</p>
         </main>
       </Container>
 
