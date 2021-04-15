@@ -4,6 +4,10 @@ export const Container = styled.header`
   width: 100%;
   height: 80px;
   background: var(--shape);
+  position: fixed;
+
+  z-index: 10;
+  transition: 0.4s;
 
   div {
     width: 100%;
@@ -36,6 +40,7 @@ export const Container = styled.header`
         color: var(--text-dark);
 
         transition: 0.3s;
+        cursor: pointer;
       }
 
       span {
