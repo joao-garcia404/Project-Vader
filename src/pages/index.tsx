@@ -7,7 +7,9 @@ import { Cards } from "../components/Home/Cards";
 import { Services } from "../components/Home/Services";
 import { Knowledge } from "../components/Knowledge";
 import { Projects } from "../components/Projects";
-
+import { Contact } from "../components/Contact";
+import { SocialMedias } from "../components/Footer/SocialMedias";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Head>
         <title>João Vitor Garcia</title>
       </Head>
+      
       <Header />
       <HomePersonal />
       <HomeAbout />
@@ -22,6 +25,9 @@ export default function Home() {
       <Services />
       <Knowledge />
       <Projects />
+      <Contact />
+      <SocialMedias />
+      <Footer />
     </>
   );
 };
