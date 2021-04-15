@@ -2,7 +2,7 @@ import { Container } from "./styles";
 
 export function HomeAbout() {
   return (
-    <Container>
+    <Container id="about">
       <main>
         <img src="/code-guy.svg" alt="Code guy"/>
         <div>
@@ -14,7 +14,9 @@ export function HomeAbout() {
             desenvolvimento tem sido meu foco e venho desenvolvendo muitos 
             projetos para o aprimoramento do meu conhecimento.
           </p>
-          <button>Baixar CV</button>
+          <a href="/cv/cv-joao-garcia.pdf" download>
+            <button>Baixar CV</button>
+          </a>
         </div>
       </main>
     </Container>
