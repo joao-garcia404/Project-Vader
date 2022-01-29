@@ -12,6 +12,15 @@ export function Card() {
             <Formation>
               <div></div>
               <main>
+                <h3>UNIP - Universidade Paulista</h3>
+                <p>Análise e desenvolvimento de sistemas</p>
+                <p>2020-Cursando</p>
+              </main>
+            </Formation>
+
+            <Formation>
+              <div></div>
+              <main>
                 <h3>Escola SENAI "Roberto Simonsen"</h3>
                 <p>Técnico em mecatrônica</p>
                 <p>2019-2020</p>
@@ -48,12 +57,23 @@ export function Card() {
             <Formation>
               <div></div>
               <main>
-                <h3>Buscando primeira experiência</h3>
+                <h3>Plin Soluções</h3>
+                <p>Front-end & Mobile developer</p>
+                <p>2021-Atualmente</p>
+              </main>
+            </Formation>
+
+            <Formation>
+              <div></div>
+              <main>
+                <h3>Fix It</h3>
+                <p>Estágio Front-end</p>
+                <p>2021-Atualmente</p>
               </main>
             </Formation>
           </div>
         </main>
-    </Container>
+      </Container>
     </>
   );
-};
+}
