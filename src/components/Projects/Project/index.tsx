@@ -16,4 +16,4 @@ export function Project({ title, description, link }: ProjectProps) {
       </a>
     </Container>
   );
-};
+}

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   h2 {
@@ -10,6 +10,7 @@ export const Container = styled.div`
     padding: 34px 62px 34px 44px;
     border-radius: 20px;
     background: var(--shape);
+    box-shadow: 0px 50px 70px -20px rgba(0, 0, 0, 0.15);
 
     display: flex;
     align-items: flex-start;

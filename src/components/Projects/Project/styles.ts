@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   position: relative;
@@ -8,6 +8,7 @@ export const Container = styled.section`
   border-radius: 16px;
   margin-top: 60px;
   background: var(--shape);
+  box-shadow: 0px 50px 70px -20px rgba(0, 0, 0, 0.15);
 
   transition: 0.4s;
 

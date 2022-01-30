@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -27,19 +27,19 @@ export const Container = styled.section`
     padding: 40px 60px;
     border-radius: 30px;
     background: var(--shape);
+    box-shadow: 0px 50px 70px -20px rgba(0, 0, 0, 0.25);
   }
 
   form {
     width: 300px;
 
     div {
-
       &.nameInput {
         width: 100%;
         height: 40px;
         padding: 0 10px;
         border-radius: 10px;
-        background: #F0F0F0;
+        background: #f0f0f0;
 
         display: flex;
         align-items: center;
@@ -60,7 +60,7 @@ export const Container = styled.section`
         padding: 0 10px;
         margin-top: 10px;
         border-radius: 10px;
-        background: #F0F0F0;
+        background: #f0f0f0;
 
         display: flex;
         align-items: center;
@@ -81,7 +81,7 @@ export const Container = styled.section`
         padding: 10px 14px;
         margin-top: 10px;
         border-radius: 10px;
-        background: #F0F0F0;
+        background: #f0f0f0;
 
         textarea {
           width: 100%;
@@ -145,25 +145,24 @@ export const Container = styled.section`
 
       div {
         &.nameInput {
+          width: 290px;
+          height: 40px;
+          padding: 0 10px;
+          border-radius: 10px;
+          background: #f0f0f0;
 
-        width: 290px;
-        height: 40px;
-        padding: 0 10px;
-        border-radius: 10px;
-        background: #F0F0F0;
+          display: flex;
+          align-items: center;
 
-        display: flex;
-        align-items: center;
-
-        input {
-          width: 100%;
-          background: transparent;
-          border: none;
-          margin-left: 10px;
-          font-size: 16px;
-          font-weight: 400;
+          input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: 400;
+          }
         }
-      }
       }
     }
   }

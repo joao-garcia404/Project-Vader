@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -18,6 +18,7 @@ export const Container = styled.div`
   border-radius: 12px;
   background: var(--shape);
   border: 3px solid var(--shape);
+  box-shadow: 0px 50px 70px -20px rgba(0, 0, 0, 0.15);
 
   transition: 0.4s;
 
