@@ -10,14 +10,17 @@ import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
 import { SocialMedias } from "../components/Footer/SocialMedias";
 import { Footer } from "../components/Footer";
+import { ChangeLanguage } from "../components/ChangeLanguage";
+
+import { Container } from "./styles";
 
 export default function Home() {
   return (
-    <>
+    <Container>
       <Head>
-        <title>João Vitor Garcia</title>
+        <title>Portfólio | João Vitor Garcia</title>
       </Head>
-      
+
       <Header />
       <HomePersonal />
       <HomeAbout />
@@ -28,6 +31,8 @@ export default function Home() {
       <Contact />
       <SocialMedias />
       <Footer />
-    </>
+
+      <ChangeLanguage />
+    </Container>
   );
-};
+}

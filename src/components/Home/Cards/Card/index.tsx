@@ -1,10 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 import { Container, Formation } from "./styles";
 
 export function Card() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Container>
-        <h2>Formação acadêmica</h2>
+        <h2>{t("formation")}</h2>
 
         <main>
           <aside></aside>
@@ -41,7 +45,7 @@ export function Card() {
               <main>
                 <h3>Escola Wizard</h3>
                 <p>Inglês</p>
-                <p>2016-2021</p>
+                <p>2016-Cursando</p>
               </main>
             </Formation>
           </div>
@@ -49,7 +53,7 @@ export function Card() {
       </Container>
 
       <Container>
-        <h2>Experiência profissional</h2>
+        <h2>{t("professionalExperience")}</h2>
 
         <main>
           <aside></aside>

@@ -1,8 +1,30 @@
-import styled from 'styled-components';
+import styled, { keyframes } from "styled-components";
+
+const appearFromLeft = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
+
+const appearFromRight = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
 
 export const Container = styled.section`
   width: 100%;
-  padding: 50px 20px;
+  padding: 30px 20px 00px 20px;
 
   main {
     width: 100%;
@@ -14,6 +36,8 @@ export const Container = styled.section`
     justify-content: space-between;
 
     div {
+      animation: ${appearFromLeft} 1s;
+
       h1 {
         font-size: 34px;
         font-weight: 600;
@@ -51,6 +75,11 @@ export const Container = styled.section`
           filter: brightness(0.9);
         }
       }
+    }
+
+    img {
+      margin-top: 60px;
+      animation: ${appearFromRight} 1s;
     }
   }
 
