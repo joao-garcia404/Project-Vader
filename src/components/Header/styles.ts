@@ -1,11 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
   height: 80px;
   background: var(--shape);
-  position: fixed;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+  position: fixed;
   z-index: 10;
   transition: 0.4s;
 
@@ -19,10 +20,7 @@ export const Container = styled.header`
     align-items: center;
     justify-content: space-between;
 
-    /* background: red; */
-
     a {
-      /* padding: 30px 0; */
       height: 100%;
       text-decoration: none;
 
@@ -46,10 +44,10 @@ export const Container = styled.header`
       span {
         width: 0%;
         height: 3px;
-        background: #00D369;
-        
+        background: var(--green);
+
         transition: 0.3s;
-      }  
+      }
 
       &:hover span {
         width: 120%;

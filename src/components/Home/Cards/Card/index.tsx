@@ -11,41 +11,41 @@ export function Card() {
         <h2>{t("formation")}</h2>
 
         <main>
-          <aside></aside>
+          <aside />
           <div>
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>UNIP - Universidade Paulista</h3>
-                <p>Análise e desenvolvimento de sistemas</p>
-                <p>2020-Cursando</p>
+                <h3>{t("college")}</h3>
+                <p>{t("collegeCourse")}</p>
+                <p>2021 - {t("studying")}</p>
               </main>
             </Formation>
 
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>Escola SENAI "Roberto Simonsen"</h3>
-                <p>Técnico em mecatrônica</p>
+                <h3>{t("technical")}</h3>
+                <p>{t("technicalCourse")}</p>
                 <p>2019-2020</p>
               </main>
             </Formation>
 
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>Centro Educacional SESI 032</h3>
-                <p>Ensino médio</p>
-                <p>2018-2020</p>
+                <h3>{t("highSchollInstitution")}</h3>
+                <p>{t("highSchool")}</p>
+                <p>2018 - 2020</p>
               </main>
             </Formation>
 
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>Escola Wizard</h3>
-                <p>Inglês</p>
-                <p>2016-Cursando</p>
+                <h3>{t("englishSchool")}</h3>
+                <p>{t("english")}</p>
+                <p>2016 - {t("studying")}</p>
               </main>
             </Formation>
           </div>
@@ -56,23 +56,38 @@ export function Card() {
         <h2>{t("professionalExperience")}</h2>
 
         <main>
-          <aside></aside>
+          <aside />
           <div>
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>Plin Soluções</h3>
-                <p>Front-end & Mobile developer</p>
-                <p>2021-Atualmente</p>
+                <h3>{t("plinCompany")}</h3>
+                <p>{t("plinJobTitle")}</p>
+                <p>
+                  {t("april")} 2021 - {t("currently")}
+                </p>
               </main>
             </Formation>
 
             <Formation>
-              <div></div>
+              <div />
               <main>
-                <h3>Fix It</h3>
-                <p>Estágio Front-end</p>
-                <p>2021-Atualmente</p>
+                <h3>{t("fixCompany")}</h3>
+                <p>{t("fixSecJobTitle")}</p>
+                <p>
+                  {t("february")} 2021 - {t("currently")}
+                </p>
+              </main>
+            </Formation>
+
+            <Formation>
+              <div />
+              <main>
+                <h3>{t("fixCompany")}</h3>
+                <p>{t("fixJobTitle")}</p>
+                <p>
+                  {t("june")} 2021 - {t("february")} 2022
+                </p>
               </main>
             </Formation>
           </div>
