@@ -12,7 +12,7 @@ import { SocialMedias } from "../components/Footer/SocialMedias";
 import { Footer } from "../components/Footer";
 import { ChangeLanguage } from "../components/ChangeLanguage";
 
-import { Container } from "./styles";
+import Container from "./styles";
 
 export default function Home() {
   return (
