@@ -1,4 +1,3 @@
-import { differenceInYears } from "date-fns";
 import { useTranslation } from "react-i18next";
 
 import { Link } from "react-scroll";

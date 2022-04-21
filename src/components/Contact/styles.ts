@@ -33,53 +33,16 @@ export const Container = styled.section`
   form {
     width: 300px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
     div {
-      &.nameInput {
-        width: 100%;
-        height: 40px;
-        padding: 0 10px;
-        border-radius: 10px;
-        background: #f0f0f0;
-
-        display: flex;
-        align-items: center;
-
-        input {
-          width: 100%;
-          background: transparent;
-          border: none;
-          margin-left: 10px;
-          font-size: 16px;
-          font-weight: 400;
-        }
-      }
-
-      &.emailInput {
-        width: 100%;
-        height: 40px;
-        padding: 0 10px;
-        margin-top: 10px;
-        border-radius: 10px;
-        background: #f0f0f0;
-
-        display: flex;
-        align-items: center;
-
-        input {
-          width: 100%;
-          background: transparent;
-          border: none;
-          margin-left: 10px;
-          font-size: 16px;
-          font-weight: 400;
-        }
-      }
-
       &.messageInput {
         width: 100%;
         height: 185px;
         padding: 10px 14px;
-        margin-top: 10px;
         border-radius: 10px;
         background: #f0f0f0;
 
@@ -109,6 +72,13 @@ export const Container = styled.section`
       display: flex;
       align-items: center;
       justify-content: center;
+
+      transition: 0.2s;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
     }
   }
 

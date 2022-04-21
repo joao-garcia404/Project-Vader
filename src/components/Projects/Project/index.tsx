@@ -11,7 +11,7 @@ export function Project({ title, description, link }: ProjectProps) {
     <Container>
       <span>{title}</span>
       <p>{description}</p>
-      <a href={link}>
+      <a href={link} target="_blank">
         <button type="button">Ver projeto</button>
       </a>
     </Container>

@@ -17,6 +17,16 @@ export function ChangeLanguage() {
     }
   }, [portuguese]);
 
+  // logica para setar a linguagem no localstorage
+
+  // useEffect(() => {
+  //   const currentLanguage = localStorage.getItem('@joao-portfolio-language');
+
+  //   if (currentLanguage === false || currentLanguage === true) {
+
+  //   }
+  // }, []);
+
   return (
     <Container
       type="button"

@@ -1,15 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 import { Container } from "./styles";
 
 export function Footer() {
+  const { t } = useTranslation();
+
   return (
     <Container>
       <main>
-        <span>Website feito por João Vitor Garcia</span>
+        <span>{t("footerCredits")}</span>
 
-        <a href="https://br.freepik.com/stories">
-          Ilustrações por Freepik Storyset
-        </a>
+        <a href="https://br.freepik.com/stories">{t("footerIllustrations")}</a>
       </main>
     </Container>
   );
-};
+}

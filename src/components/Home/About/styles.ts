@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
@@ -43,6 +43,7 @@ export const Container = styled.div`
         justify-content: center;
 
         transition: 0.2s;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
         &:hover {
           filter: brightness(0.9);

@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     --text-dark: #000;
     --text-white: #fff;
 
+    --inputBackground: #f0f0f0;
+
     --background: #F1F2F7;
     --shape: #ffffff;
   }
@@ -19,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-track {
-    background: transparent;
+    background: var(--background);
   }
 
   ::-webkit-scrollbar-thumb {

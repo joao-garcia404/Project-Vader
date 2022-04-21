@@ -1,4 +1,18 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const reactAnimation = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Wrapper = styled.div`
   display: flex;
@@ -39,6 +53,10 @@ export const Container = styled.div`
     div {
       display: flex;
       gap: 26px;
+
+      .react_icon {
+        animation: ${reactAnimation} 2s linear infinite;
+      }
     }
 
     span {
@@ -48,6 +66,7 @@ export const Container = styled.div`
     }
 
     p {
+      width: 110px;
       margin-top: 34px;
       text-align: center;
       font-size: 16px;

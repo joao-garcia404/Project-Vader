@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -9,7 +9,7 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
 
-  h1 {
+  h2 {
     font-size: 24px;
     font-weight: 600;
     color: var(--green);

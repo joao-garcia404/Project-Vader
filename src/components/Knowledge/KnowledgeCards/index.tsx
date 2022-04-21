@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Container, Wrapper } from "./styles";
 
 export function KnowledgeCards() {
+  const { t } = useTranslation();
+
   return (
     <Wrapper>
       <Container>
@@ -12,9 +15,7 @@ export function KnowledgeCards() {
 
           <span>HTML e CSS</span>
 
-          <p>
-            2 anos de <br /> experiência
-          </p>
+          <p>2 {t("yearsOfExperience")}</p>
         </main>
       </Container>
 
@@ -27,9 +28,7 @@ export function KnowledgeCards() {
 
           <span>JavaScript e TypeScript</span>
 
-          <p>
-            1 ano de <br /> experiência
-          </p>
+          <p>2 {t("yearsOfExperience")}</p>
         </main>
       </Container>
 
@@ -41,37 +40,31 @@ export function KnowledgeCards() {
 
           <span>Next.JS</span>
 
-          <p>
-            7 meses de <br /> experiência
-          </p>
+          <p>7 {t("monthsOfExperience")}</p>
         </main>
       </Container>
 
       <Container>
         <main>
           <div>
-            <img src="/react.svg" alt="ReactJS" />
+            <img className="react_icon" src="/react.svg" alt="ReactJS" />
           </div>
 
           <span>ReactJS</span>
 
-          <p>
-            1 ano de <br /> experiência
-          </p>
+          <p>1 {t("yearOfExperience")}</p>
         </main>
       </Container>
 
       <Container>
         <main>
           <div>
-            <img src="/react.svg" alt="React Native" />
+            <img className="react_icon" src="/react.svg" alt="React Native" />
           </div>
 
           <span>React Native</span>
 
-          <p>
-            10 meses de <br /> experiência
-          </p>
+          <p>10 {t("monthsOfExperience")}</p>
         </main>
       </Container>
 
@@ -83,9 +76,7 @@ export function KnowledgeCards() {
 
           <span>Styled-components</span>
 
-          <p>
-            1 ano de <br /> experiência
-          </p>
+          <p>1 {t("yearOfExperience")}</p>
         </main>
       </Container>
     </Wrapper>

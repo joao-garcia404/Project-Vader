@@ -75,7 +75,7 @@ export function Card() {
                 <h3>{t("fixCompany")}</h3>
                 <p>{t("fixSecJobTitle")}</p>
                 <p>
-                  {t("february")} 2021 - {t("currently")}
+                  {t("february")} 2022 - {t("currently")}
                 </p>
               </main>
             </Formation>

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -11,7 +11,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+
   h2 {
     font-weight: bold;
     font-size: 28px;
