@@ -23,7 +23,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 825px) {
-    > h2 {
+    h2 {
       margin-top: 20px;
     }
   }

@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import { Textarea } from "../Textarea";
-import { Input } from "./Input";
+import { Input } from "../Input";
 
 import { Container } from "./styles";
 
