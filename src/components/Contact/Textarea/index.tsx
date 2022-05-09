@@ -13,7 +13,7 @@ export function Textarea({ ...rest }: TextareaProps) {
         {...rest}
         onFocus={() => setInputFocused(true)}
         onBlur={() => setInputFocused(false)}
-      ></textarea>
+      />
     </Container>
   );
 }

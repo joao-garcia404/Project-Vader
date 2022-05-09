@@ -12,14 +12,14 @@ export function Header() {
   const [visible, setVisible] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
 
+  function handleScroll() {
+    const position = window.pageYOffset;
+
+    setVisible(scrollPosition > position);
+    setScrollPosition(position);
+  }
+
   useEffect(() => {
-    function handleScroll() {
-      const position = window.pageYOffset;
-
-      setVisible(scrollPosition > position);
-      setScrollPosition(position);
-    }
-
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);

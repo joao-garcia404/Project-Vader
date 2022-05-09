@@ -10,18 +10,22 @@ export const Container = styled.section`
   background: var(--shape);
   box-shadow: 0px 50px 70px -20px rgba(0, 0, 0, 0.15);
 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
   transition: 0.4s;
 
   &:hover {
     transform: translateY(-14px);
   }
 
-  span {
+  .project_title {
     font-size: 18px;
     font-weight: 600;
   }
 
-  p {
+  .project_description {
     font-size: 16px;
     font-weight: 300;
     margin-top: 8px;

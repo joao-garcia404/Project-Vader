@@ -1,12 +1,17 @@
+import { FormEvent } from "react";
 import { useTranslation } from "react-i18next";
 
-import { Textarea } from "../Textarea";
+import { Textarea } from "./Textarea";
 import { Input } from "./Input";
 
 import { Container } from "./styles";
 
 export function Contact() {
   const { t } = useTranslation();
+
+  function handleSubmitForm(event: FormEvent) {
+    event.preventDefault();
+  }
 
   return (
     <Container id="contact">
@@ -15,7 +20,7 @@ export function Contact() {
       <main>
         <img src="/send.svg" alt="Enviar" />
 
-        <form>
+        <form onSubmit={handleSubmitForm}>
           <Input
             type="text"
             placeholder={t("namePlaceholder")}

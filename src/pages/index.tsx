@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <title>Portfólio | João Vitor Garcia</title>
+        <title>Developer | João Vitor Garcia</title>
       </Head>
 
       <Header />

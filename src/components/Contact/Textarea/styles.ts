@@ -26,8 +26,5 @@ export const Container = styled.div<ContainerProps>`
     font-size: 16px;
     font-weight: 400;
     outline: none;
-
-    &:focus {
-    }
   }
 `;

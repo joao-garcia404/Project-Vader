@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -10,14 +10,18 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+`;
 
-  > main {
-    margin-top: 70px;
-  }
+export const CardsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 70px;
 
   @media (max-width: 615px) {
-    > main {
-      margin-top: 40px;
-    }
+    gap: 40px;
+    margin-top: 40px;
   }
 `;

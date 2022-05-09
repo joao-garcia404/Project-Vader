@@ -9,8 +9,8 @@ interface ProjectProps {
 export function Project({ title, description, link }: ProjectProps) {
   return (
     <Container>
-      <span>{title}</span>
-      <p>{description}</p>
+      <span className="project_title">{title}</span>
+      <span className="project_description">{description}</span>
       <a href={link} target="_blank">
         <button type="button">Ver projeto</button>
       </a>

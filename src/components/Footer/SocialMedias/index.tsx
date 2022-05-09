@@ -10,15 +10,15 @@ export function SocialMedias() {
       <h2>{t("socialMedias")}</h2>
 
       <main>
-        <a href="https://github.com/joao-garcia404">
+        <a href="https://github.com/joao-garcia404" target="_blank">
           <img src="/github.svg" alt="Github" />
         </a>
 
-        <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-garcia-89bba81b1/">
+        <a href="https://www.linkedin.com/in/joao-garcia404/" target="_blank">
           <img src="/linkedin.svg" alt="Linkedin" />
         </a>
 
-        <a href="https://www.instagram.com/joaov_d3v/">
+        <a href="https://www.instagram.com/joaov_d3v/" target="_blank">
           <img src="/instagram.svg" alt="Instagram" />
         </a>
       </main>
