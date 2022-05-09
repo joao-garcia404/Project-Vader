@@ -45,6 +45,11 @@ export const Container = styled.button`
       font-size: 12px;
     }
   }
+
+  @media (max-width: 768px) {
+    bottom: 16px;
+    right: 16px;
+  }
 `;
 
 export const LanguageText = styled.div`

@@ -99,6 +99,7 @@ export const Container = styled.section`
 
         h2 {
           margin-top: 20px;
+          text-align: center;
         }
 
         p {

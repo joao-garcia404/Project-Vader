@@ -9,7 +9,6 @@ export function Footer() {
     <Container>
       <main>
         <span>{t("footerCredits")}</span>
-
         <a href="https://br.freepik.com/stories">{t("footerIllustrations")}</a>
       </main>
     </Container>
