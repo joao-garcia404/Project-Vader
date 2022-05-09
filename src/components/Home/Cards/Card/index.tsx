@@ -53,7 +53,7 @@ export function Card() {
       </Container>
 
       <Container>
-        <h2>{t("professionalExperience")}</h2>
+        <h2 className="academic">{t("professionalExperience")}</h2>
 
         <main>
           <aside />

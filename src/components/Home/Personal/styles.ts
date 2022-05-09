@@ -86,6 +86,8 @@ export const Container = styled.section`
   }
 
   @media (max-width: 850px) {
+    padding-bottom: 30px;
+
     main {
       flex-direction: column-reverse;
 

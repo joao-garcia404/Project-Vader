@@ -96,7 +96,7 @@ export const Container = styled.section`
       align-items: center;
       justify-content: center;
 
-      padding: 40px 60px;
+      padding: 40px 4px;
       border-radius: 30px;
       background: var(--shape);
     }
