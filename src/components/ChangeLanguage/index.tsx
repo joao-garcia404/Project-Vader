@@ -22,7 +22,19 @@ export function ChangeLanguage() {
       type="button"
       onClick={() => setPortuguese((prevState) => !prevState)}
     >
-      <LanguageText>{portuguese ? "PT 🇧🇷" : "EN 🇺🇸"}</LanguageText>
+      <LanguageText>
+        {portuguese ? (
+          <>
+            <img src="/brazil.svg" alt="Brazilian flag" />
+            PT
+          </>
+        ) : (
+          <>
+            <img src="/usa.svg" alt="United States flag" />
+            EN
+          </>
+        )}
+      </LanguageText>
       <MdImportExport size={20} />
     </Container>
   );

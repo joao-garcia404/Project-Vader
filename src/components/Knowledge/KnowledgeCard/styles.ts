@@ -34,7 +34,7 @@ export const Container = styled.div`
     transform: translateY(-10px);
   }
 
-  div {
+  .images_container {
     display: flex;
     gap: 26px;
 

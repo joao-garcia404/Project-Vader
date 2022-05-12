@@ -1,9 +1,9 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, I18nContext } from "react-i18next";
 
 import { Container } from "./styles";
 
 export function HomeAbout() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <Container id="about">
@@ -12,7 +12,14 @@ export function HomeAbout() {
         <div>
           <h2>{t("aboutMe")}</h2>
           <p>{t("aboutMeText")}</p>
-          <a href="/cv/cv-joao-garcia.pdf" download>
+          <a
+            href={
+              i18n.language === "pt-BR"
+                ? "/cv/cv-joao-garcia.pdf"
+                : "/cv/en-cv-joao-garcia.pdf"
+            }
+            download
+          >
             <button>{t("downloadCv")}</button>
           </a>
         </div>

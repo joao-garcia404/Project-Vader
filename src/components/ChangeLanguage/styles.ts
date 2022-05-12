@@ -53,10 +53,19 @@ export const Container = styled.button`
 `;
 
 export const LanguageText = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   font-size: 14px;
   font-weight: 500;
   color: var(--text-dark);
+
   transition: all 0.3s;
+
+  img {
+    width: 20px;
+  }
 
   &:hover {
     color: var(--green);

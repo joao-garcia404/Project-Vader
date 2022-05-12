@@ -8,7 +8,7 @@ export function Knowledge() {
 
   const knowledges = [
     {
-      title: "HTML e CSS",
+      title: "HTML CSS",
       experience: `2 ${t("yearsOfExperience")}`,
       images: [
         <img src="/html.svg" alt="HTML" />,
@@ -16,7 +16,7 @@ export function Knowledge() {
       ],
     },
     {
-      title: "JavaScript e TypeScript",
+      title: "JavaScript TypeScript",
       experience: `2 ${t("yearsOfExperience")}`,
       images: [
         <img src="/js.svg" alt="JavaScript" />,
@@ -58,8 +58,9 @@ export function Knowledge() {
       <h2>{t("knowledge")}</h2>
 
       <CardsContainer>
-        {knowledges.map((knowledge) => (
+        {knowledges.map((knowledge, index) => (
           <KnowledgeCard
+            key={index}
             title={knowledge.title}
             experience={knowledge.experience}
             images={knowledge.images}
