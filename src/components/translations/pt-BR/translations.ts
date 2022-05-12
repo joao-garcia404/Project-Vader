@@ -5,7 +5,7 @@ export const TRANSLATIONS_PTBR = {
   headerContacts: "Contato",
   jobTitle: "Desenvolvedor Front-End & Mobile",
   personalResume:
-    "Olá, me chamo João, tenho 18 anos e sou um desenvolvedor Front-end & Mobile. Bem vindo ao meu site pessoal.",
+    "Olá, me chamo João, tenho 19 anos e sou um desenvolvedor Front-end & Mobile. Bem vindo ao meu site pessoal.",
   aboutMe: "Sobre mim",
   aboutMeText:
     "Tenho formação de nível técnico em mecatrônica pela escola SENAI “Roberto Simonsen” e estudo programação web e mobile de forma auto-didata há cerca de 2 anos, desde então essa área de desenvolvimento tem sido meu foco e venho desenvolvendo muitos projetos para o aprimoramento do meu conhecimento.",
