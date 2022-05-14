@@ -31,7 +31,7 @@ export const Container = styled.section`
   }
 
   form {
-    width: 300px;
+    width: 350px;
 
     display: flex;
     flex-direction: column;
