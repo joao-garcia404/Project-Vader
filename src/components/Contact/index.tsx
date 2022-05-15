@@ -2,6 +2,8 @@ import { FormEvent, useState } from "react";
 
 import { useTranslation } from "react-i18next";
 
+import { toast } from "react-toastify";
+
 import { Input } from "../Input";
 import { Loader } from "../Loader";
 import { Textarea } from "../Textarea";
@@ -33,15 +35,15 @@ export function Contact() {
 
       await api.post("/clients", body);
 
-      console.log("executou depois do api");
-
       setFormData({
         name: "",
         email: "",
         message: "",
       });
+
+      toast.success(t("toastFormSuccess"));
     } catch (error) {
-      console.log(error);
+      toast.error(t("toastFormError"));
     } finally {
       setLoading(false);
     }
@@ -92,7 +94,12 @@ export function Contact() {
             value={formData.message}
           />
 
-          <button type="submit">{loading ? <Loader /> : t("send")}</button>
+          <button
+            type="submit"
+            disabled={!formData.email || !formData.message || !formData.name}
+          >
+            {loading ? <Loader /> : t("send")}
+          </button>
         </form>
       </main>
     </Container>

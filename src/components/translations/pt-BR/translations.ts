@@ -53,4 +53,6 @@ export const TRANSLATIONS_PTBR = {
   socialMedias: "Redes sociais",
   footerCredits: "Website feito por João Vitor Garcia",
   footerIllustrations: "Ilustrações por Freepik Storyset",
+  toastFormError: "Ocorreu um erro ao enviar os dados.",
+  toastFormSuccess: "Dados enviados com sucesso.",
 };

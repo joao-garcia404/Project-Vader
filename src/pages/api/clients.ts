@@ -13,7 +13,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
       return res.status(200).json({ messsage: "Contact made successfully" });
     } catch (error) {
-      console.log(error);
       return res.status(500).json({ messsage: "An error occurred" });
     }
   } else {

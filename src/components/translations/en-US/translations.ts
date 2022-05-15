@@ -53,4 +53,6 @@ export const TRANSLATIONS_ENUS = {
   socialMedias: "Social medias",
   footerCredits: "Website made by João Vitor Garcia",
   footerIllustrations: "Illustrations by Freepik Storyset",
+  toastFormError: "An error occurred while sending the data.",
+  toastFormSuccess: "Data sent successfully.",
 };

@@ -12,8 +12,14 @@ export const GlobalStyle = createGlobalStyle`
 
     --inputBackground: #f0f0f0;
 
+    --button-disabled: #e5e5e5;
+
     --background: #F1F2F7;
     --shape: #ffffff;
+
+    // Toast colors override
+    --toastify-color-success: #00D369;
+    --toastify-color-error: #DD5554;
   }
 
   ::-webkit-scrollbar {

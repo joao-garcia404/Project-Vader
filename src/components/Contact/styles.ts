@@ -62,7 +62,7 @@ export const Container = styled.section`
       width: 100%;
       height: 34px;
       border-radius: 8px;
-      background: var(--green);
+      background-color: var(--green);
       border: none;
       color: var(--text-white);
       font-size: 18px;
@@ -74,10 +74,15 @@ export const Container = styled.section`
       justify-content: center;
 
       transition: 0.2s;
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
       &:hover {
         filter: brightness(0.9);
+      }
+
+      &:disabled {
+        background-color: var(--button-disabled);
+        cursor: not-allowed;
       }
     }
   }

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { ToastContainer } from "react-toastify";
+
 import { Header } from "../components/Header";
 import { HomePersonal } from "../components/Home/Personal";
 import { HomeAbout } from "../components/Home/About";
@@ -14,25 +16,31 @@ import { ChangeLanguage } from "../components/ChangeLanguage";
 
 import Container from "./styles";
 
+import "react-toastify/dist/ReactToastify.css";
+
 export default function Home() {
   return (
-    <Container>
-      <Head>
-        <title>Developer | João Vitor Garcia</title>
-      </Head>
+    <>
+      <ToastContainer position="bottom-center" />
 
-      <Header />
-      <HomePersonal />
-      <HomeAbout />
-      <Cards />
-      <Services />
-      <Knowledge />
-      <Projects />
-      <Contact />
-      <SocialMedias />
-      <Footer />
+      <Container>
+        <Head>
+          <title>Developer | João Vitor Garcia</title>
+        </Head>
 
-      <ChangeLanguage />
-    </Container>
+        <Header />
+        <HomePersonal />
+        <HomeAbout />
+        <Cards />
+        <Services />
+        <Knowledge />
+        <Projects />
+        <Contact />
+        <SocialMedias />
+        <Footer />
+
+        <ChangeLanguage />
+      </Container>
+    </>
   );
 }
