@@ -72,10 +72,21 @@ export function Card() {
             <Formation>
               <div />
               <main>
+                <h3>{t("dxCompany")}</h3>
+                <p>{t("dxJobTitle")}</p>
+                <p>
+                  {t("october")} 2022 - {t("currently")}
+                </p>
+              </main>
+            </Formation>
+
+            <Formation>
+              <div />
+              <main>
                 <h3>{t("fixCompany")}</h3>
                 <p>{t("fixSecJobTitle")}</p>
                 <p>
-                  {t("february")} 2022 - {t("currently")}
+                  {t("february")} 2022 - {t("september")} 2022
                 </p>
               </main>
             </Formation>

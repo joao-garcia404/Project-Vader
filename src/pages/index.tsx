@@ -25,7 +25,7 @@ export default function Home() {
 
       <Container>
         <Head>
-          <title>Developer | João Vitor Garcia</title>
+          <title>João Vitor Garcia</title>
         </Head>
 
         <Header />

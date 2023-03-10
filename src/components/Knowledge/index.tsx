@@ -25,7 +25,7 @@ export function Knowledge() {
     },
     {
       title: "Next.JS",
-      experience: `7 ${t("monthsOfExperience")}`,
+      experience: `1 ${t("yearOfExperience")}`,
       images: [
         <img
           style={{ width: "100px", height: "63px" }}
@@ -36,19 +36,19 @@ export function Knowledge() {
     },
     {
       title: "ReactJS",
-      experience: `1 ${t("yearOfExperience")}`,
+      experience: `2 ${t("yearsOfExperience")}`,
       images: [<img className="react_icon" src="/react.svg" alt="ReactJS" />],
     },
     {
       title: "React Native",
-      experience: `10 ${t("monthsOfExperience")}`,
+      experience: `1 ${t("yearOfExperience")}`,
       images: [
         <img className="react_icon" src="/react.svg" alt="React Native" />,
       ],
     },
     {
       title: "Node JS",
-      experience: `5 ${t("monthsOfExperience")}`,
+      experience: `1 ${t("yearOfExperience")}`,
       images: [<img src="/node.svg" alt="NodeJS" />],
     },
   ];
